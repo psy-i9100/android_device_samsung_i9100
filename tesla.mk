@@ -15,7 +15,7 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/validus/config/common.mk)
+$(call inherit-product, vendor/tesla/config/common.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := GT-I9100
@@ -25,20 +25,21 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9100
-PRODUCT_NAME := validus_i9100
+PRODUCT_NAME := tesla_i9100
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-I9100
 
 # PRODUCT_COPY_FILES += \
 #	device/samsung/i9100/prebuilt/Camera2.apk:system/addon.d/Camera2.apk \
 PRODUCT_COPY_FILES += \
+	vendor/tesla/prebuilt/common/bootanimations/BOOTANIMATION-1080x1920.zip:system/media/bootanimation.zip \
 	device/samsung/i9100/prebuilt/system/init.d/000tweaks:system/etc/init.d/000tweaks \
 	device/samsung/i9100/prebuilt/system/media/audio/notifications/!Dexter_Sms_Qsy.ogg:system/media/audio/notifications/!Dexter_Sms_Qsy.ogg \
 	device/samsung/i9100/prebuilt/system/media/audio/notifications/!Electronic_Ring.ogg:system/media/audio/notifications/!Electronic_Ring.ogg \
