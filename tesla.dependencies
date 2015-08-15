@@ -1,13 +1,13 @@
 [
     {
-        "repository": "psyafter-validus-i9100/android_device_samsung_galaxys2-common",
+        "repository": "Tesla-Redux-Devices/device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
         "branch":     "lp5.1"	
     },
     {
-        "repository": "psyafter-validus-i9100/android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412",
-        "branch":     "lp5.1"	
+        "repository": "kularny/AOSP-LP-Kernel",
+        "target_path": "kernel/samsung/smdk4412-aosp-lp",
+        "branch":     "AOSP-LP-Kernel+"	
     },
     {
         "repository": "CyanogenMod/android_hardware_samsung",
@@ -18,10 +18,5 @@
         "repository": "TV-LP51-Devices/device_samsung_i9100_proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
         "branch": "lp5.1"
-    },
-    {
-        "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
-        "target_path": "packages/apps/SamsungServiceMode",
-        "branch":     "cm-12.1"	
     }
 ]
