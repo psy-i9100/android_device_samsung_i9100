@@ -47,6 +47,11 @@ TARGET_KERNEL_CONFIG := i9100_defconfig
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9-sm
 
+# Tesla optimizations
+PULSE := true
+GRAPHITE_OPTS := true
+BLOCK_BASED_OTA := false
+
 # assert
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T,SC-02C
 
