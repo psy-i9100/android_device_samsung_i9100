@@ -36,18 +36,15 @@ TARGET_KERNEL_CONFIG := i9100_defconfig
 #KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 #KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 #KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 #KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
 #KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86/toolchain/linaro-4.9-14.06/bin/"
-
-# Rom Toolchain
-#TARGET_GCC_VERSION_EXP := 4.8
-#TARGET_GCC_VERSION_ARM := 4.9
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9-sm
+#TARGET_GCC_VERSION_ARM := 5.1-sm
 
 # Tesla optimizations
 PULSE := true
