@@ -1,6 +1,10 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=Tesla-$(TESLA_BUILD)-$(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_MAINTENANCE)-$(TESLA_BUILD_TYPE)-$(shell date +"%Y-%m-%d")
 
+# BOOT ANIMATION
+PRODUCT_COPY_FILES += \
+    device/samsung/i9100/prebuilt/system/media/bootanimation.zip:system/media/bootanimation.zip 
+
 # PRODUCT_COPY_FILES += \
 #	device/samsung/i9100/prebuilt/common/app/Camera2.apk:system/addon.d/Camera2.apk \
 PRODUCT_COPY_FILES += \
