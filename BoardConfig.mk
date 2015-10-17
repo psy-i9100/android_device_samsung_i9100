@@ -29,7 +29,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
 #TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
 #TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412+
 #TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412-aosp-lp
+TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412-GeniSys
 TARGET_KERNEL_CONFIG := i9100_defconfig
 
 # Kernel Toolchain
