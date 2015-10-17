@@ -6,8 +6,8 @@
     },
     {
         "repository": "kularny/GeniSys.Kernel",
-        "target_path": "kernel/samsung/smdk4412-aosp-lp",
-        "branch":     "AOSP-LP-Kernel+"	
+        "target_path": "kernel/samsung/smdk4412-GeniSys",
+        "branch":     "GeniSys.Kernel"	
     },
     {
         "repository": "CyanogenMod/android_hardware_samsung",
