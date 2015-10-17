@@ -5,7 +5,7 @@
         "branch":     "lp5.1"	
     },
     {
-        "repository": "kularny/AOSP-LP-Kernel",
+        "repository": "kularny/GeniSys.Kernel",
         "target_path": "kernel/samsung/smdk4412-aosp-lp",
         "branch":     "AOSP-LP-Kernel+"	
     },
