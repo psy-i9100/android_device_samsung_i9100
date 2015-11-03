@@ -2,7 +2,7 @@
     {
         "repository": "Tesla-Redux-Devices/device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
-        "branch":     "lp5.1"	
+        "branch":     "mm"	
     },
     {
         "repository": "kularny/GeniSys.Kernel",
@@ -12,7 +12,7 @@
     {
         "repository": "CyanogenMod/android_hardware_samsung",
         "target_path": "hardware/samsung",
-        "branch":     "cm-12.1"	
+        "branch":     "cm-13.0"	
     },
     {
         "repository": "TV-LP51-Devices/device_samsung_i9100_proprietary_vendor_samsung",
