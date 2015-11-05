@@ -1,6 +1,6 @@
 [
     {
-        "repository": "Tesla-Redux-Devices/device_samsung_galaxys2-common",
+        "repository": "psyafter/android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
         "branch":     "mm"	
     },
@@ -15,8 +15,8 @@
         "branch":     "cm-13.0"	
     },
     {
-        "repository": "TV-LP51-Devices/device_samsung_i9100_proprietary_vendor_samsung",
+        "repository": "psyafter/android_device_samsung_i9100_proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "branch": "lp5.1"
+        "branch": "mm"
     }
 ]
