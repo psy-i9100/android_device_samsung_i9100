@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
 
 #NovaLauncher
 PRODUCT_COPY_FILES += \
-    device/samsung/i9100/prebuilt/common/app/Nova33.apk:system/app/Nova33.apk
+    device/samsung/i9100/prebuilt/common/app/Nova41.apk:system/app/Nova41.apk
 	
 # AdAway
 PRODUCT_COPY_FILES += \
