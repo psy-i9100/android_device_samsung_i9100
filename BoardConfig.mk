@@ -40,7 +40,7 @@ TARGET_KERNEL_CONFIG := i9100_defconfig
 #KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
 #KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86/toolchain/linaro-4.9-14.06/bin/"
 #KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/kernel/samsung/smdk4412-GeniSys/toolchain/arm-cortex-a9/bin KERNEL_TOOLCHAIN_PREFIX := arm-eabi
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/kernel/samsung/smdk4412-GeniSys/toolchain/arm-cortex-a9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
